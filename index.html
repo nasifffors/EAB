@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+    <head>
+
+        <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta -->
+        <meta http-equiv="Cache-Control" content="public" max-age="86400"/>
+        <meta charset="utf-8"/>
+        <meta content="initial-scale=1, width=device-width" name="viewport"/>
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+        <!-- http://getbootstrap.com/ -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+
+        <!-- app's own CSS -->
+        <link href="/nasifffors/ide50/final/static/styles.css" rel="stylesheet"/>
+
+        <!-- http://jquery.com/ -->
+        <script src="https://code.jquery.com/jquery-latest.min.js" async></script>
+
+        <!-- http://getbootstrap.com/ -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
+
+        <!-- https://github.com/corejavascript/typeahead.js/blob/master/doc/jquery_typeahead.md -->
+        <script src="https://cdn.rawgit.com/corejavascript/typeahead.js/master/dist/typeahead.jquery.js" defer></script>
+
+        <!-- http://handlebarsjs.com/ -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js" async></script>
+
+        <!-- app's own JavaScript -->
+        <script src="/nasifffors/ide50/final/static/scripts.js" async></script>
+
+        <title>Baseball</title>
+
+    </head>
+    <body>
+
+        <!-- fill viewport -->
+        <div class="container-fluid">
+
+            <!-- http://getbootstrap.com/css/#forms -->
+            <form id="form">
+                <div class="form-group">
+                    <label class="sr-only-focusable" for="q"></label>
+                    <input class="form-control" id="q" placeholder="Enter First Name or Last Name of Batter" type="text"/>
+                </div>
+                <div class="ply"></div>
+            </form>
+        </div>
+    </body>
+</html>
